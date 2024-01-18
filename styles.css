@@ -59,15 +59,31 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+}
+
+.middle-heading {
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 .explainer {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    gap: 20px;
 }
 
 .explainer>div>img {
     height: 8rem;
+}
+
+.explainer-title {
+    font-weight: 900;
+}
+
+.explainer-description {
+    font-size: 0.5rem;
 }
 
 .end {}
