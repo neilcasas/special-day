@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --main-bg: whitesmoke;
+    --main-bg: #ffcdd4;
+    --accent: #e57d90;
     --main-font: 'Montserrat', sans-serif;
     font-family: var(--main-font);
     font-size: 24px;
+    background-color: var(--main-bg);
 }
 
 * {
@@ -22,7 +24,7 @@
 .header {
     top: 0;
     position: sticky;
-    background-color: deeppink;
+    background-color: var(--accent);
 }
 
 .header-wrapper {
@@ -47,11 +49,32 @@
 }
 
 .middle {
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.end {
-    background-color: yellow;
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.explainer>div>img {
+    height: 8rem;
+}
+
+.end {}
+
+
+.footer {
+    background-color: var(--accent);
 }
 
 .footer-text {
