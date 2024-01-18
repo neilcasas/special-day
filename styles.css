@@ -1,20 +1,36 @@
-body {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --main-bg: whitesmoke;
+    --main-font: 'Montserrat', sans-serif;
+    font-family: var(--main-font);
+    font-size: 24px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+}
 
 .main {
     display: flex;
     flex-direction: column;
 }
 
-.main>div {
+.content>div {
     height: 100vh;
 }
 
-.title {
-    background-color: tomato;
+.hero-main {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    text-align: center;
 }
 
 .middle {
