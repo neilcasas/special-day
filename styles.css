@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid red;
+    border: 1px dotted red;
 }
 
 .main {
@@ -39,4 +39,9 @@
 
 .end {
     background-color: yellow;
+}
+
+.footer-text {
+    font-size: 0.5rem;
+    text-align: center;
 }
