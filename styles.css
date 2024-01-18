@@ -1,102 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root {
-    --main-bg: #ffcdd4;
-    --accent: #e57d90;
-    --main-font: 'Montserrat', sans-serif;
-    font-family: var(--main-font);
-    font-size: 24px;
-    background-color: var(--main-bg);
-}
+    :root {
+        --main-bg: #ffcdd4;
+        --accent: #e57d90;
+        --main-font: 'Montserrat', sans-serif;
+        --accent-font-color: rgb(238, 88, 163);
+        font-family: var(--main-font);
+        font-size: 24px;
+        background-color: var(--main-bg);
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 1px dotted red;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px dotted red;
+    }
 
-.main-container {
-    display: flex;
-    flex-direction: column;
-}
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
 
-.header {
-    top: 0;
-    position: sticky;
-    background-color: var(--accent);
-    padding: 10px 5px;
-}
+    .header {
+        top: 0;
+        position: sticky;
+        background-color: var(--accent);
+        padding: 10px 5px;
+    }
 
-.header-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.content>div {
-    height: 100vh;
-}
+    .content>div {
+        height: 100vh;
+    }
 
-.hero-main {
-    display: flex;
-    font-size: 3rem;
-    justify-content: center;
-    align-items: center;
-}
+    .hero-container {
+        text-align: center;
+    }
 
-.hero-container {
-    text-align: center;
-}
+    .hero-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/hero-bg.png);
+    }
 
-.middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .hero-header {
+        font-size: 3rem;
+        font-weight: 900;
+        color: var(--accent-font-color);
+    }
 
-.middle-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 50px;
-}
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.middle-heading {
-    font-size: 2rem;
-    font-weight: 900;
-}
+    .middle-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 50px;
+    }
 
-.explainer {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 20px;
-}
+    .middle-heading {
+        font-size: 2rem;
+        font-weight: 900;
+    }
 
-.explainer>div>img {
-    height: 8rem;
-}
+    .explainer {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 20px;
+    }
 
-.explainer-title {
-    font-weight: 900;
-}
+    .explainer>div>img {
+        height: 8rem;
+    }
 
-.explainer-description {
-    font-size: 0.5rem;
-}
+    .explainer-title {
+        font-weight: 900;
+    }
 
-.end {}
+    .explainer-description {
+        font-size: 0.5rem;
+    }
 
+    .footer {
+        background-color: var(--accent);
+        padding: 5px;
+    }
 
-.footer {
-    background-color: var(--accent);
-    padding: 5px;
-}
-
-.footer-text {
-    font-size: 0.5rem;
-    text-align: center;
-}
+    .footer-text {
+        font-size: 0.5rem;
+        color: whitesmoke;
+        text-align: center;
+    }
