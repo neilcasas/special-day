@@ -15,7 +15,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        border: 1px dotted red;
     }
 
     .main-container {
@@ -81,8 +80,11 @@
     }
 
     button {
+        text-align: center;
         font-family: var(--main-font);
         font-size: 0.6rem;
+        height: 1.5rem;
+        width: 4rem;
         padding: 8px;
         border-radius: 8px;
         border: none;
@@ -173,7 +175,7 @@
         color: var(--accent-font-color);
     }
 
-    #cta-button {
+    .cta-buttons {
         margin-top: 1rem;
     }
 
