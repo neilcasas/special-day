@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+    background: linear-gradient(45deg, violet, indigo);
     background-size: 600% 600%;
     animation: rainbowAnimation 10s ease infinite;
 }
@@ -24,6 +26,8 @@ body {
 
 h1 {
     font-size: 72px;
+    font-family: 'Montserrat';
+    color: whitesmoke;
 }
 
 #happy-cat {

@@ -1,27 +1,25 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-    /*dark mode styles */
-    .dark-mode {
+    :root.dark {
         --main-bg: #572649;
         --accent: #e57d90;
         --readable-bg: #a3386c;
         --readable-font: whitesmoke;
     }
 
-    :root {
+    :root.light {
         --main-bg: #ffcdd4;
         --accent: #e57d90;
         --readable-bg: whitesmoke;
         --readable-font: whitesmoke;
         --main-font: 'Montserrat', sans-serif;
         --accent-font-color: rgb(238, 88, 163);
-        font-family: var(--main-font);
-        font-size: 24px;
-        background-color: var(--main-bg);
-
     }
 
     * {
+        font-family: var(--main-font);
+        font-size: 24px;
+        background-color: var(--main-bg);
         margin: 0;
         padding: 0;
         box-sizing: border-box;
