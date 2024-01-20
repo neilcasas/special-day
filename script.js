@@ -1,11 +1,17 @@
 const yesButton = document.querySelector('.yes');
 const noButton = document.querySelector('.no');
+const heroButton = document.querySelector('#hero-button');
 const themeButton = document.querySelector('#toggle-theme');
 const heroBG = document.querySelector('.hero-main');
 const ctaBG = document.querySelector('.cta');
 const root = document.documentElement;
 
 root.className = 'light'; // initialize root theme to light
+
+// hero button interaction
+heroButton.addEventListener('click', function () {
+    heroButton.textContent = '❤️';
+})
 
 // yes button goes to yes webpage
 yesButton.addEventListener('click', function () {
