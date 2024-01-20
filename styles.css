@@ -87,6 +87,9 @@
     }
 
     .explainer>div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         padding: 20px;
         background-color: var(--readable-bg);
         border-radius: 10%;
