@@ -23,6 +23,7 @@
         flex-direction: column;
     }
 
+
     .header {
         top: 0;
         position: sticky;
@@ -38,6 +39,7 @@
 
     .content>div {
         height: 100vh;
+        padding: 20px;
     }
 
     .hero-container {
@@ -99,7 +101,9 @@
 
     .explainer>div>img {
         height: 8rem;
+        width: 12rem;
         border-radius: 10%;
+        object-fit: cover;
     }
 
     .explainer-title {
@@ -108,6 +112,10 @@
 
     .explainer-description {
         font-size: 0.5rem;
+    }
+
+    .end {
+        background-color: var(--readable-bg);
     }
 
     .footer {
