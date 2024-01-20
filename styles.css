@@ -1,5 +1,13 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+    /*dark mode styles */
+    .dark-mode {
+        --main-bg: #572649;
+        --accent: #e57d90;
+        --readable-bg: #a3386c;
+        --readable-font: whitesmoke;
+    }
+
     :root {
         --main-bg: #ffcdd4;
         --accent: #e57d90;
