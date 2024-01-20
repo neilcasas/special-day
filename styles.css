@@ -87,6 +87,13 @@
         background-image: url(./assets/hero-bg.png);
     }
 
+    .hero-main.dark {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/hero-bg-dark.png);
+    }
+
     .hero-header {
         background-color: transparent;
         font-size: 3rem;
@@ -184,6 +191,13 @@
 
     .cta {
         background-image: url(./assets/cta-bg.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cta.dark {
+        background-image: url(./assets/cta-bg-dark.png);
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -17,7 +17,14 @@ themeButton.addEventListener('click', function () {
     const newTheme = root.className === 'dark' ? 'light' : 'dark';
     root.className = newTheme;
     themeButton.textContent = themeButton.textContent === 'Dark Mode' ? 'Light Mode' : 'Dark Mode';
+    toggleBackgrounds(newTheme);
 });
+
+// toggle between backgrounds in cta and hero
+function toggleBackgrounds(theme) {
+    heroBG.classList.toggle('dark', theme === 'dark');
+    ctaBG.classList.toggle('dark', theme === 'dark');
+}
 
 let count = 0;
 
