@@ -15,6 +15,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        border: 1px dotted red;
     }
 
     .main-container {
@@ -155,8 +156,32 @@
         font-size: 0.5rem;
     }
 
-    .end {
+    .cta {
         background-color: var(--readable-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cta-container {
+        text-align: center;
+    }
+
+    .hero-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/hero-bg.png);
+    }
+
+    .cta-header {
+        font-size: 3rem;
+        font-weight: 900;
+        color: var(--accent-font-color);
+    }
+
+    #cta-button {
+        margin-top: 1rem;
     }
 
     .footer {
