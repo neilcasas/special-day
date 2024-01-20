@@ -4,11 +4,13 @@
         --main-bg: #ffcdd4;
         --accent: #e57d90;
         --readable-bg: whitesmoke;
+        --readable-font: whitesmoke;
         --main-font: 'Montserrat', sans-serif;
         --accent-font-color: rgb(238, 88, 163);
         font-family: var(--main-font);
         font-size: 24px;
         background-color: var(--main-bg);
+
     }
 
     * {
@@ -50,7 +52,7 @@
         font-size: 0.8rem;
         padding: 2px;
         text-decoration: none;
-        color: var(--readable-bg)
+        color: var(--readable-font)
     }
 
     .content>div {
@@ -90,7 +92,7 @@
         border: none;
         background-color: var(--accent-font-color);
         cursor: pointer;
-        color: var(--readable-bg);
+        color: var(--readable-font);
     }
 
     button:hover {
