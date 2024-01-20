@@ -1,4 +1,8 @@
 const yesButton = document.querySelector('.yes');
+const themeButton = document.querySelector('#toggle-theme');
+const root = document.documentElement;
+
+root.className = 'light';
 
 // yes button goes to yes webpage
 yesButton.addEventListener('click', function () {
@@ -6,7 +10,8 @@ yesButton.addEventListener('click', function () {
 })
 
 function toggleTheme() {
-    const root = document.documentElement;
     const newTheme = root.className === 'dark' ? 'light' : 'dark';
     root.className = newTheme;
 }
+
+themeButton.addEventListener('click', toggleTheme);

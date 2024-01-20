@@ -5,6 +5,8 @@
         --accent: #e57d90;
         --readable-bg: #a3386c;
         --readable-font: whitesmoke;
+        --main-font: 'Montserrat', sans-serif;
+        --accent-font-color: rgb(238, 88, 163);
     }
 
     :root.light {
