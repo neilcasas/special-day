@@ -15,7 +15,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        border: 1px dotted red;
     }
 
     .main-container {
@@ -34,12 +33,24 @@
     .header-wrapper {
         display: flex;
         justify-content: space-between;
+        padding: 5px;
     }
 
     .header-wrapper>div {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .header-buttons {
+        gap: 20px;
+    }
+
+    .header-buttons a {
+        font-size: 0.8rem;
+        padding: 2px;
+        text-decoration: none;
+        color: var(--readable-bg)
     }
 
     .content>div {
@@ -80,7 +91,8 @@
     }
 
     .middle-heading {
-        font-size: 2rem;
+        font-size: 3rem;
+        color: var(--accent-font-color);
         font-weight: 900;
     }
 
