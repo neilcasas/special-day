@@ -1,4 +1,5 @@
 const yesButton = document.querySelector('.yes');
+const noButton = document.querySelector('.no');
 const themeButton = document.querySelector('#toggle-theme');
 const root = document.documentElement;
 
@@ -15,3 +16,27 @@ themeButton.addEventListener('click', function () {
     root.className = newTheme;
     themeButton.textContent = themeButton.textContent === 'Dark Mode' ? 'Light Mode' : 'Dark Mode';
 });
+
+let count = 0;
+
+// change no button on count 
+function noCount() {
+    count++;
+    if (count == 1) {
+        noButton.textContent = 'wait dont click';
+    } else if (count == 2) {
+        noButton.textContent = 'no seriously dont';
+    } else if (count == 3) {
+        noButton.textContent = 'am I that worthless to you';
+    } else if (count == 4) {
+        noButton.textContent = 'i beg you dont click';
+    } else if (count == 5) {
+        noButton.textContent = ':(';
+    }
+}
+noButton.addEventListener('click', function () {
+    noCount();
+    if (count > 5) {
+        window.location.href = './decisions/no.html';
+    }
+})
