@@ -1,6 +1,8 @@
 const yesButton = document.querySelector('.yes');
 const noButton = document.querySelector('.no');
 const themeButton = document.querySelector('#toggle-theme');
+const heroBG = document.querySelector('.hero-main');
+const ctaBG = document.querySelector('.cta');
 const root = document.documentElement;
 
 root.className = 'light'; // initialize root theme to light
@@ -36,6 +38,7 @@ function noCount() {
 }
 noButton.addEventListener('click', function () {
     noCount();
+    // direct to no.html
     if (count > 5) {
         window.location.href = './decisions/no.html';
     }
