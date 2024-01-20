@@ -83,8 +83,16 @@
         gap: 20px;
     }
 
+    .explainer>div {
+        padding: 20px;
+        background-color: whitesmoke;
+        border-radius: 10%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.112);
+    }
+
     .explainer>div>img {
         height: 8rem;
+        border-radius: 10%;
     }
 
     .explainer-title {
