@@ -28,13 +28,18 @@
         top: 0;
         position: sticky;
         background-color: var(--accent);
-        padding: 10px 5px;
+        padding: 5px 5px;
     }
 
     .header-wrapper {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
+    }
+
+    .header-wrapper>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content>div {
