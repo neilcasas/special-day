@@ -32,7 +32,6 @@
         flex-direction: column;
     }
 
-
     .header {
         top: 0;
         position: sticky;
@@ -151,7 +150,6 @@
         border-radius: 40px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.112);
         transition: transform 0.3s ease;
-        color:
     }
 
     .explainer>div:hover {
