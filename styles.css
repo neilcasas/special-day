@@ -3,6 +3,7 @@
     :root {
         --main-bg: #ffcdd4;
         --accent: #e57d90;
+        --readable-bg: whitesmoke;
         --main-font: 'Montserrat', sans-serif;
         --accent-font-color: rgb(238, 88, 163);
         font-family: var(--main-font);
@@ -85,9 +86,15 @@
 
     .explainer>div {
         padding: 20px;
-        background-color: whitesmoke;
+        background-color: var(--readable-bg);
         border-radius: 10%;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.112);
+        transition: transform 0.3s ease;
+
+    }
+
+    .explainer>div:hover {
+        transform: scale(1.1);
     }
 
     .explainer>div>img {
