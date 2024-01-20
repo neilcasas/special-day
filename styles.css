@@ -56,7 +56,7 @@
         gap: 20px;
     }
 
-    .header-buttons a {
+    .header-buttons>a {
         font-size: 0.8rem;
         padding: 2px;
         text-decoration: none;
@@ -89,7 +89,27 @@
         margin-top: 1rem;
     }
 
+    a {
+        text-decoration: none;
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 0.6rem;
+        height: 1.5rem;
+        width: 4rem;
+        padding: 8px;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--accent-font-color);
+        cursor: pointer;
+        color: var(--readable-font);
+    }
+
+    a:hover {
+        background-color: var(--accent);
+    }
+
     button {
+        text-decoration: none;
         text-align: center;
         font-family: var(--main-font);
         font-size: 0.6rem;
@@ -106,7 +126,6 @@
     button:hover {
         background-color: var(--accent);
     }
-
 
     .middle {
         display: flex;
