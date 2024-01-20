@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+    background-size: 600% 600%;
+    animation: rainbowAnimation 10s ease infinite;
+}
+
+@keyframes rainbowAnimation {
+
+    0%,
+    100% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+}
+
+h1 {
+    font-size: 72px;
+}
+
+#happy-cat {
+    height: 500px;
+    width: 500px;
+}
