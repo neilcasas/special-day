@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -26,11 +30,15 @@ body {
 
 h1 {
     font-size: 72px;
-    font-family: 'Montserrat';
     color: whitesmoke;
 }
 
 #happy-cat {
     height: 500px;
     width: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
 }

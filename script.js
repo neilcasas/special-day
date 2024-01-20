@@ -13,4 +13,5 @@ yesButton.addEventListener('click', function () {
 themeButton.addEventListener('click', function () {
     const newTheme = root.className === 'dark' ? 'light' : 'dark';
     root.className = newTheme;
+    themeButton.textContent = themeButton.textContent === 'Dark Mode' ? 'Light Mode' : 'Dark Mode';
 });
